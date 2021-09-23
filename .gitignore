@@ -4,4 +4,6 @@ releases/*
 *.biprivatekey
 keys/*
 .hemtt/local
+*.pbo
+*.pbo.bak
 ####
