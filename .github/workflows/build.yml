@@ -1,0 +1,19 @@
+name: Build
+
+on: 
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build PBO
+        run:  MakePbo.exe ./cba_settings_userconfig
+        shell: cmd
+        working-directory: ./61st-Addon-Settings/addons
