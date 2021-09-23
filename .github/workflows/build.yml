@@ -14,6 +14,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build PBO
-        run:  \..\..\tools\MakePbo.exe cba_settings_userconfig
+        run:  build.bat
         shell: cmd
-        working-directory: ./61st-Addon-Settings/addons
