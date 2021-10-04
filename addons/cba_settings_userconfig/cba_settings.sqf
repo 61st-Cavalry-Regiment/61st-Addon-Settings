@@ -1,26 +1,17 @@
 // 61st Aux
 Aux61st_vehicles_HMDClutter = false;
 Aux61st_vehicles_HMDColor = [0,1,0];
-Aux61st_vehicles_HMDOpacity = 0.54379;
+Aux61st_vehicles_HMDOpacity = 0.2;
 Aux61st_vehicles_HMDUnit = 0;
 
 // ACE Advanced Ballistics
-force force ace_advanced_ballistics_ammoTemperatureEnabled = false;
-force force ace_advanced_ballistics_barrelLengthInfluenceEnabled = false;
-force force ace_advanced_ballistics_bulletTraceEnabled = false;
-force force ace_advanced_ballistics_enabled = false;
-force force ace_advanced_ballistics_muzzleVelocityVariationEnabled = false;
-force force ace_advanced_ballistics_simulationInterval = 0;
+force ace_advanced_ballistics_ammoTemperatureEnabled = true;
+force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
+force ace_advanced_ballistics_bulletTraceEnabled = true;
+force ace_advanced_ballistics_enabled = false;
+force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
+force ace_advanced_ballistics_simulationInterval = 0.05;
 
-// ACE Advanced Fatigue
-force ace_advanced_fatigue_enabled = false;
-force ace_advanced_fatigue_enableStaminaBar = true;
-ace_advanced_fatigue_fadeStaminaBar = true;
-force force ace_advanced_fatigue_loadFactor = 0.5;
-force force ace_advanced_fatigue_performanceFactor = 1.25;
-force force ace_advanced_fatigue_recoveryFactor = 2;
-force force ace_advanced_fatigue_swayFactor = 1;
-force force ace_advanced_fatigue_terrainGradientFactor = 0.75;
 
 // ACE Advanced Throwing
 force force ace_advanced_throwing_enabled = true;
@@ -32,11 +23,11 @@ force force ace_advanced_throwing_showThrowArc = true;
 // ACE Arsenal
 force force ace_arsenal_allowDefaultLoadouts = true;
 force force ace_arsenal_allowSharedLoadouts = true;
-force force ace_arsenal_camInverted = false;
+ace_arsenal_camInverted = false;
 force force ace_arsenal_enableIdentityTabs = true;
 force force ace_arsenal_enableModIcons = true;
 force force ace_arsenal_EnableRPTLog = true;
-force force ace_arsenal_fontHeight = 4.5;
+ace_arsenal_fontHeight = 4.5;
 
 // ACE Artillery
 force force ace_artillerytables_advancedCorrections = false;
@@ -44,7 +35,7 @@ force force ace_artillerytables_disableArtilleryComputer = false;
 force force ace_mk6mortar_airResistanceEnabled = false;
 force force ace_mk6mortar_allowCompass = true;
 force force ace_mk6mortar_allowComputerRangefinder = true;
-force force ace_mk6mortar_useAmmoHandling = true;
+force force ace_mk6mortar_useAmmoHandling = false;
 
 // ACE Captives
 force force ace_captives_allowHandcuffOwnSide = true;
@@ -65,18 +56,18 @@ force force ace_noradio_enabled = true;
 force force ace_parachute_hideAltimeter = true;
 
 // ACE Cook off
-force force ace_cookoff_ammoCookoffDuration = 0.5;
-force force ace_cookoff_enable = 0;
-force force ace_cookoff_enableAmmobox = false;
-force force ace_cookoff_enableAmmoCookoff = true;
-force force ace_cookoff_probabilityCoef = 0.5;
+force ace_cookoff_ammoCookoffDuration = 1;
+force ace_cookoff_enable = 0;
+force ace_cookoff_enableAmmobox = true;
+force ace_cookoff_enableAmmoCookoff = true;
+force ace_cookoff_probabilityCoef = 1;
 
 // ACE Crew Served Weapons
-force force ace_csw_ammoHandling = 2;
-force force ace_csw_defaultAssemblyMode = true;
-force force ace_csw_dragAfterDeploy = true;
-force force ace_csw_handleExtraMagazines = true;
-force force ace_csw_progressBarTimeCoefficent = 1;
+force ace_csw_ammoHandling = 2;
+force ace_csw_defaultAssemblyMode = false;
+ace_csw_dragAfterDeploy = false;
+force ace_csw_handleExtraMagazines = true;
+force ace_csw_progressBarTimeCoefficent = 1;
 
 // ACE Explosives
 ace_explosives_customTimerDefault = 30;
@@ -154,10 +145,10 @@ force force ace_repair_addSpareParts = true;
 force force ace_repair_autoShutOffEngineWhenStartingRepair = true;
 force force ace_repair_consumeItem_toolKit = 0;
 ace_repair_displayTextOnRepair = true;
-force force ace_repair_engineerSetting_fullRepair = 0;
-force force ace_repair_engineerSetting_repair = 0;
+force force ace_repair_engineerSetting_fullRepair = 1;
+force force ace_repair_engineerSetting_repair = 1;
 force force ace_repair_engineerSetting_wheel = 0;
-force force ace_repair_fullRepairLocation = 0;
+force force ace_repair_fullRepairLocation = 1;
 force force ace_repair_fullRepairRequiredItems = ["ToolKit"];
 force force ace_repair_miscRepairRequiredItems = ["ToolKit"];
 force force ace_repair_repairDamageThreshold = 0.6;
@@ -173,7 +164,7 @@ force force ace_magazinerepack_timePerMagazine = 2;
 force force ace_map_BFT_Enabled = true;
 force force ace_map_BFT_HideAiGroups = true;
 force force ace_map_BFT_Interval = 1;
-force force ace_map_BFT_ShowPlayerNames = false;
+force force ace_map_BFT_ShowPlayerNames = true;
 force force ace_map_DefaultChannel = 0;
 force force ace_map_mapGlow = true;
 force force ace_map_mapIllumination = true;
@@ -286,11 +277,11 @@ ace_nametags_showVehicleCrewInfo = true;
 ace_nametags_tagSize = 2;
 
 // ACE Nightvision
-force force ace_nightvision_aimDownSightsBlur = 0;
+force force ace_nightvision_aimDownSightsBlur = 0.413223;
 force force ace_nightvision_disableNVGsWithSights = false;
-force force ace_nightvision_effectScaling = 1;
-force force ace_nightvision_fogScaling = 1;
-force force ace_nightvision_noiseScaling = 0;
+force force ace_nightvision_effectScaling = 0.0980025;
+force force ace_nightvision_fogScaling = 0.298439;
+force force ace_nightvision_noiseScaling = 0.284091;
 ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
@@ -361,6 +352,7 @@ CHTR_TFAR_Setter_Layout = false;
 CHTR_TFAR_Setter_Shortcut = false;
 CHTR_TFAR_Setter_ShowLR = true;
 CHTR_TFAR_Setter_ShowSR = true;
+CHTR_TFAR_Setter_ShowVLR = true;
 
 // ACE Trenches
 force force ace_trenches_bigEnvelopeDigDuration = 25;
@@ -425,8 +417,12 @@ force force ace_vehiclelock_vehicleStartingLockState = -1;
 // ACE Vehicle Medical
 force force MIRA_Vehicle_Medical_CacheInterval = 0.4;
 force force MIRA_Vehicle_Medical_EnableAVM = true;
+MIRA_Vehicle_Medical_EnableIncapacitated = false;
 MIRA_Vehicle_Medical_EnableStable = true;
 MIRA_Vehicle_Medical_EnableUnstable = true;
+MIRA_Vehicle_Medical_Incapacitated_CanUnloadAll = true;
+MIRA_Vehicle_Medical_Incapacitated_ShowCount = false;
+MIRA_Vehicle_Medical_Stable_ShowCount = true;
 MIRA_Vehicle_Medical_Stable_ThresholdLowBP = 80;
 MIRA_Vehicle_Medical_Stable_ThresholdLowHR = 50;
 MIRA_Vehicle_Medical_Stable_TrackFractures = true;
@@ -437,6 +433,9 @@ MIRA_Vehicle_Medical_Stable_TrackNeedsBandage = true;
 MIRA_Vehicle_Medical_Stable_TrackSplints = true;
 MIRA_Vehicle_Medical_Stable_TrackStitchableWounds = true;
 MIRA_Vehicle_Medical_Stable_TrackTourniquets = true;
+MIRA_Vehicle_Medical_Unstable_DogtagsDeadOnly = true;
+MIRA_Vehicle_Medical_Unstable_ShowCount = true;
+MIRA_Vehicle_Medical_Unstable_TakeDogtags = true;
 MIRA_Vehicle_Medical_Unstable_ThresholdLowBP = 80;
 MIRA_Vehicle_Medical_Unstable_ThresholdLowHR = 50;
 MIRA_Vehicle_Medical_Unstable_TrackBleeding = true;
@@ -454,7 +453,7 @@ MIRA_Vehicle_Medical_Vehicles_EnablePlane = true;
 MIRA_Vehicle_Medical_Vehicles_EnableShip = true;
 MIRA_Vehicle_Medical_Vehicles_EnableTank = true;
 MIRA_Vehicle_Medical_VERSION = false;
-force force MIRA_Vehicle_Medical_WarnViewingDead = true;
+MIRA_Vehicle_Medical_WarnViewingDead = true;
 
 // ACE Vehicles
 ace_vehicles_hideEjectAction = true;
@@ -496,10 +495,45 @@ force force ace_zeus_revealMines = 0;
 force force ace_zeus_zeusAscension = false;
 force force ace_zeus_zeusBird = false;
 
-// Advanced Developer Tools
-force DBUG_alwaysShowConsole = false;
-force DBUG_replaceDebugConsole = true;
+// ACEX Field Rations
+force acex_field_rations_affectAdvancedFatigue = true;
+force acex_field_rations_enabled = false;
+acex_field_rations_hudShowLevel = 0;
+acex_field_rations_hudTransparency = -1;
+acex_field_rations_hudType = 0;
+force acex_field_rations_hungerSatiated = 1;
+force acex_field_rations_terrainObjectActions = true;
+force acex_field_rations_thirstQuenched = 1;
+force acex_field_rations_timeWithoutFood = 2;
+force acex_field_rations_timeWithoutWater = 2;
+force acex_field_rations_waterSourceActions = 2;
 
+// ACEX Fortify
+acex_fortify_settingHint = 2;
+// ACEX Headless
+force acex_headless_delay = 15;
+force acex_headless_enabled = false;
+force acex_headless_endMission = 0;
+force acex_headless_log = false;
+force acex_headless_transferLoadout = 0;
+
+// ACEX Sitting
+force acex_sitting_enable = false;
+
+// ACEX View Restriction
+force acex_viewrestriction_mode = 0;
+force acex_viewrestriction_modeSelectiveAir = 0;
+force acex_viewrestriction_modeSelectiveFoot = 0;
+force acex_viewrestriction_modeSelectiveLand = 0;
+force acex_viewrestriction_modeSelectiveSea = 0;
+acex_viewrestriction_preserveView = false;
+// ACEX Volume
+acex_volume_enabled = false;
+acex_volume_fadeDelay = 1;
+acex_volume_lowerInVehicles = false;
+acex_volume_reduction = 5;
+acex_volume_remindIfLowered = false;
+acex_volume_showNotification = true;
 // Advanced Urban Rappelling
 force force AUR_ADVANCED_RAPPELING_ITEMS_NEEDED = 0;
 force force AUR_ADVANCED_RAPPELING_NEW_ACTION = false;
@@ -510,18 +544,16 @@ force force AUR_ADVANCED_RAPPELING_VELOCITY = 1;
 // BettIR
 force force BettIR_ViewDistance = 300;
 
-// CBA UI
+// Community Base Addons
 cba_diagnostic_ConsoleIndentType = -1;
+
+cba_disposable_dropUsedLauncher = 2;
+force cba_disposable_replaceDisposableLauncher = true;
+cba_events_repetitionMode = 1;
+force cba_network_loadoutValidation = 0;
+cba_optics_usePipOptics = true;
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
-
-// CBA Weapons
-cba_disposable_dropUsedLauncher = 2;
-force force cba_disposable_replaceDisposableLauncher = true;
-cba_events_repetitionMode = 1;
-cba_optics_usePipOptics = true;
-
-// Community Base Addons - Network
 force force cba_network_loadoutValidation = 2;
 
 // DUI - Squad Radar - Indicators
@@ -795,36 +827,155 @@ force MCC_showActionKey = true;
 force MCC_suppressionOn = false;
 force MCC_UIModuleTickets = false;
 
-// Task Force Arrowhead Radio
-TF_default_radioVolume = 9;
-force force TF_give_microdagr_to_soldier = true;
-force force TF_give_personal_radio_to_regular_soldier = false;
-force force TF_no_auto_long_range_radio = true;
-force force TF_same_dd_frequencies_for_side = false;
-force force TF_same_lr_frequencies_for_side = false;
-force force TF_same_sw_frequencies_for_side = false;
+// TFAR - Clientside settings
+TFAR_curatorCamEars = false;
+TFAR_default_radioVolume = 6;
+TFAR_intercomDucking = 0.2;
+TFAR_intercomVolume = 0.1;
+TFAR_moveWhileTabbedOut = false;
+TFAR_noAutomoveSpectator = false;
+TFAR_oldVolumeHint = false;
+TFAR_pluginTimeout = 4;
+TFAR_PosUpdateMode = 0.1;
+TFAR_showChannelChangedHint = true;
+TFAR_ShowDiaryRecord = true;
+TFAR_showTransmittingHint = true;
+TFAR_ShowVolumeHUD = false;
+TFAR_tangentReleaseDelay = 0;
+TFAR_VolumeHudTransparency = 0;
+TFAR_volumeModifier_forceSpeech = false;
 
-// USAF
-force usaf_afterburner_setting_allow_ai = true;
-force USAF_allowNuke = true;
-force usaf_debug_setting_enabled_clients = false;
-force usaf_debug_setting_enabled_server = false;
-force usaf_serviceMenu_setting_allowHangarRearm = true;
-force usaf_serviceMenu_setting_allowHangarRefuel = true;
-force usaf_serviceMenu_setting_allowHangarRepair = true;
-force usaf_serviceMenu_setting_allowLoadoutModification = true;
-force usaf_serviceMenu_setting_enabled = true;
-force usaf_serviceMenu_setting_refuelTime = "100";
-force usaf_serviceMenu_setting_reloadTime = "2";
-force usaf_serviceMenu_setting_repairTime = "100";
-force usaf_serviceMenu_setting_replaceSources = false;
-force usaf_serviceMenu_setting_selectorSearchRadius = "15";
-force usaf_setting_allow_aiFormlights = true;
-force usaf_utility_core_allow_move_in_cargo = false;
+// TFAR - Global settings
+force TFAR_AICanHearPlayer = false;
+force TFAR_AICanHearSpeaker = false;
+force TFAR_allowDebugging = true;
+tfar_core_noTSNotConnectedHint = false;
+force TFAR_defaultIntercomSlot = 0;
+force TFAR_disableAutoMute = false;
+force TFAR_enableIntercom = true;
+force TFAR_experimentalVehicleIsolation = true;
+force TFAR_fullDuplex = true;
+force TFAR_giveLongRangeRadioToGroupLeaders = false;
+force TFAR_giveMicroDagrToSoldier = true;
+force TFAR_givePersonalRadioToRegularSoldier = false;
+force TFAR_globalRadioRangeCoef = 1;
+force TFAR_instantiate_instantiateAtBriefing = false;
+force TFAR_objectInterceptionEnabled = true;
+force TFAR_objectInterceptionStrength = 400;
+force tfar_radiocode_east = "_opfor";
+force tfar_radiocode_independent = "_independent";
+force tfar_radiocode_west = "_bluefor";
+force tfar_radioCodesDisabled = false;
+force TFAR_SameLRFrequenciesForSide = false;
+force TFAR_SameSRFrequenciesForSide = false;
+force TFAR_setting_defaultFrequencies_lr_east = "";
+force TFAR_setting_defaultFrequencies_lr_independent = "";
+force TFAR_setting_defaultFrequencies_lr_west = "";
+force TFAR_setting_defaultFrequencies_sr_east = "";
+force TFAR_setting_defaultFrequencies_sr_independent = "";
+force TFAR_setting_defaultFrequencies_sr_west = "";
+force TFAR_setting_DefaultRadio_Airborne_east = "TFAR_mr6000l";
+force TFAR_setting_DefaultRadio_Airborne_Independent = "TFAR_anarc164";
+force TFAR_setting_DefaultRadio_Airborne_West = "TFAR_anarc210";
+force TFAR_setting_DefaultRadio_Backpack_east = "TFAR_mr3000";
+force TFAR_setting_DefaultRadio_Backpack_Independent = "TFAR_anprc155";
+force TFAR_setting_DefaultRadio_Backpack_west = "TFAR_rt1523g";
+force TFAR_setting_DefaultRadio_Personal_east = "TFAR_fadak";
+force TFAR_setting_DefaultRadio_Personal_Independent = "TFAR_anprc148jem";
+force TFAR_setting_DefaultRadio_Personal_West = "TFAR_anprc152";
+force TFAR_setting_DefaultRadio_Rifleman_East = "TFAR_pnr1000a";
+force TFAR_setting_DefaultRadio_Rifleman_Independent = "TFAR_anprc154";
+force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_rf7800str";
+force TFAR_spectatorCanHearEnemyUnits = true;
+force TFAR_spectatorCanHearFriendlies = true;
+force TFAR_takingRadio = 2;
+force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
+force TFAR_Teamspeak_Channel_Password = "123";
+force tfar_terrain_interception_coefficient = 7;
+force TFAR_voiceCone = true;
+// VCOM AI East Skill
+Vcm_AISkills_East_AimingAccuracy = 0.25;
+Vcm_AISkills_East_aimingShake = 0.15;
+Vcm_AISkills_East_aimingSpeed = 0.15;
+Vcm_AISkills_East_commanding = 0.85;
+Vcm_AISkills_East_courage = 0.5;
+Vcm_AISkills_East_general = 0.5;
+Vcm_AISkills_East_reloadSpeed = 1;
+Vcm_AISkills_East_spotDistance = 0.85;
+Vcm_AISkills_East_spotTime = 0.85;
+// VCOM AI General Skill
+Vcm_AISkills_General_AimingAccuracy = 0.25;
+Vcm_AISkills_General_aimingShake = 0.15;
+Vcm_AISkills_General_aimingSpeed = 0.35;
+Vcm_AISkills_General_commanding = 0.85;
+Vcm_AISkills_General_courage = 0.5;
+Vcm_AISkills_General_general = 0.5;
+Vcm_AISkills_General_reloadSpeed = 1;
+Vcm_AISkills_General_spotDistance = 0.85;
+Vcm_AISkills_General_spotTime = 0.85;
+// VCOM AI Resistance Skill
+Vcm_AISkills_Resistance_AimingAccuracy = 0.25;
+Vcm_AISkills_Resistance_aimingShake = 0.15;
+Vcm_AISkills_Resistance_aimingSpeed = 0.15;
+Vcm_AISkills_Resistance_commanding = 0.85;
+Vcm_AISkills_Resistance_courage = 0.5;
+Vcm_AISkills_Resistance_general = 0.5;
+Vcm_AISkills_Resistance_reloadSpeed = 1;
+Vcm_AISkills_Resistance_spotDistance = 0.85;
+Vcm_AISkills_Resistance_spotTime = 0.85;
 
-// ZaD - ACE integration
-force zad_ace_int_pillHeal_enable = false;
-
+// VCOM AI West Skill
+Vcm_AISkills_West_AimingAccuracy = 0.25;
+Vcm_AISkills_West_aimingShake = 0.15;
+Vcm_AISkills_West_aimingSpeed = 0.15;
+Vcm_AISkills_West_commanding = 0.85;
+Vcm_AISkills_West_courage = 0.5;
+Vcm_AISkills_West_general = 0.5;
+Vcm_AISkills_West_reloadSpeed = 1;
+Vcm_AISkills_West_spotDistance = 0.85;
+Vcm_AISkills_West_spotTime = 0.85;
+// VCOM SETTINGS
+force VCM_ActivateAI = true;
+force VCM_ADVANCEDMOVEMENT = true;
+force VCM_AIDISTANCEVEHPATH = 100;
+force VCM_AIMagLimit = 5;
+force VCM_AISkills_General_EM = true;
+force VCM_AISkills_General_EM_CHN = 10;
+force VCM_AISkills_General_EM_CLDWN = 10;
+force Vcm_AISkills_SideSpecific = false;
+force VCM_AISNIPERS = true;
+force VCM_AISUPPRESS = true;
+force VCM_ARTYDELAY = 30;
+force VCM_ARTYENABLE = true;
+force VCM_ARTYSIDES = [WEST,EAST,GUER];
+force VCM_CARGOCHNG = true;
+force VCM_ClassSteal = true;
+force VCM_Debug = false;
+force VCM_DISEMBARKRANGE = 200;
+force Vcm_DrivingActivated = false;
+force VCM_ForceSpeed = true;
+force VCM_FRMCHANGE = true;
+force Vcm_GrenadeChance = 10;
+force VCM_HEARINGDISTANCE = 1200;
+force VCM_MEDICALACTIVE = true;
+force VCM_MINECHANCE = 75;
+force VCM_MINEENABLED = true;
+force Vcm_PlayerAISkills = true;
+force VCM_RAGDOLL = true;
+force VCM_RAGDOLLCHC = 100;
+force VCM_SIDEENABLED = [WEST,EAST,GUER];
+force VCM_SKILLCHANGE = true;
+force Vcm_SmokeGrenadeChance = 10;
+force VCM_STATICARMT = 300;
+force VCM_StealVeh = true;
+force VCM_SUPDIST = 200;
+force VCM_TURRETUNLOAD = true;
+force VCM_USECBASETTINGS = true;
+force VCM_WARNDELAY = 30;
+force VCM_WARNDIST = 1000;
+// VS Static Line
+force VS_ChuteClass = "";
+force VS_StaticEquipped = true;
 // Zeus Enhanced
 zen_camera_adaptiveSpeed = true;
 zen_camera_defaultSpeedCoef = 1;
@@ -838,6 +989,7 @@ zen_common_disableGearAnim = false;
 zen_common_preferredArsenal = 1;
 zen_compat_ace_hideModules = true;
 zen_context_menu_enabled = 2;
+zen_context_menu_overrideWaypoints = false;
 zen_editor_addGroupIcons = false;
 zen_editor_declutterEmptyTree = true;
 zen_editor_disableLiveSearch = false;
@@ -848,6 +1000,7 @@ zen_editor_randomizeCopyPaste = false;
 zen_editor_removeWatermark = true;
 zen_editor_unitRadioMessages = 0;
 zen_placement_enabled = true;
+zen_remote_control_cameraExitPosition = 2;
 zen_visibility_enabled = false;
 zen_vision_enableBlackHot = false;
 zen_vision_enableBlackHotGreenCold = false;
