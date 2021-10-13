@@ -101,7 +101,7 @@ force force ace_hearing_autoAddEarplugsToUnits = true;
 ace_hearing_disableEarRinging = false;
 force force ace_hearing_earplugsVolume = 0.5;
 force force ace_hearing_enableCombatDeafness = true;
-force force ace_hearing_enabledForZeusUnits = true;
+force force ace_hearing_enabledForZeusUnits = false;
 force force ace_hearing_unconsciousnessVolume = 0.4;
 
 // ACE Interaction
@@ -164,14 +164,14 @@ force force ace_magazinerepack_timePerMagazine = 2;
 force force ace_map_BFT_Enabled = true;
 force force ace_map_BFT_HideAiGroups = true;
 force force ace_map_BFT_Interval = 1;
-force force ace_map_BFT_ShowPlayerNames = true;
+force force ace_map_BFT_ShowPlayerNames = false;
 force force ace_map_DefaultChannel = 0;
 force force ace_map_mapGlow = true;
 force force ace_map_mapIllumination = true;
 force force ace_map_mapLimitZoom = false;
 force force ace_map_mapShake = true;
 force force ace_map_mapShowCursorCoordinates = true;
-force force ace_markers_moveRestriction = 0;
+force force ace_markers_moveRestriction = 2;
 ace_markers_timestampEnabled = true;
 ace_markers_timestampFormat = "HH:MM";
 ace_markers_timestampHourFormat = 24;
@@ -195,7 +195,7 @@ ace_maptools_rotateModifierKey = 1;
 
 // ACE Medical
 force ace_medical_ai_enabledFor = 2;
-force ace_medical_AIDamageThreshold = 0.5;
+force ace_medical_AIDamageThreshold = 0.35;
 force ace_medical_bleedingCoefficient = 0.8;
 force ace_medical_blood_bloodLifetime = 900;
 force ace_medical_blood_enabledFor = 2;
@@ -222,7 +222,7 @@ force ace_medical_statemachine_AIUnconsciousness = true;
 force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force ace_medical_statemachine_cardiacArrestTime = 300;
 force ace_medical_statemachine_fatalInjuriesAI = 0;
-force ace_medical_statemachine_fatalInjuriesPlayer = 0;
+force ace_medical_statemachine_fatalInjuriesPlayer = 2;
 force ace_medical_treatment_advancedBandages = 2;
 force ace_medical_treatment_advancedDiagnose = true;
 force ace_medical_treatment_advancedMedication = true;
@@ -312,7 +312,7 @@ force force ace_pylons_timePerPylon = 5;
 force force ace_quickmount_distance = 3;
 force force ace_quickmount_enabled = true;
 ace_quickmount_enableMenu = 3;
-ace_quickmount_priority = 0;
+ace_quickmount_priority = 3;
 force force ace_quickmount_speed = 18;
 
 // ACE Respawn
@@ -512,13 +512,13 @@ force acex_field_rations_waterSourceActions = 2;
 acex_fortify_settingHint = 2;
 // ACEX Headless
 force acex_headless_delay = 15;
-force acex_headless_enabled = false;
+force acex_headless_enabled = true;
 force acex_headless_endMission = 0;
 force acex_headless_log = false;
 force acex_headless_transferLoadout = 0;
 
 // ACEX Sitting
-force acex_sitting_enable = false;
+force acex_sitting_enable = true;
 
 // ACEX View Restriction
 force acex_viewrestriction_mode = 0;
@@ -894,15 +894,15 @@ force TFAR_Teamspeak_Channel_Password = "123";
 force tfar_terrain_interception_coefficient = 7;
 force TFAR_voiceCone = true;
 // VCOM AI East Skill
-Vcm_AISkills_East_AimingAccuracy = 0.25;
+Vcm_AISkills_East_AimingAccuracy = 0.20;
 Vcm_AISkills_East_aimingShake = 0.15;
 Vcm_AISkills_East_aimingSpeed = 0.15;
 Vcm_AISkills_East_commanding = 0.85;
 Vcm_AISkills_East_courage = 0.5;
 Vcm_AISkills_East_general = 0.5;
 Vcm_AISkills_East_reloadSpeed = 1;
-Vcm_AISkills_East_spotDistance = 0.85;
-Vcm_AISkills_East_spotTime = 0.85;
+Vcm_AISkills_East_spotDistance = 0.65;
+Vcm_AISkills_East_spotTime = 0.65;
 // VCOM AI General Skill
 Vcm_AISkills_General_AimingAccuracy = 0.25;
 Vcm_AISkills_General_aimingShake = 0.15;
